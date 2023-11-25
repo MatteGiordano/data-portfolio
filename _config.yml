@@ -1,0 +1,12 @@
+title: Matteo Giordano portfolio
+description: This is my personal data analysis and visualization portfolio.
+baseurl: "/data-portfolio" # Change this to "" for user or organization sites
+url: "https://mattegiordano.github.io"
+
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  
+permalink: pretty
