@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://kit.fontawesome.com/0e73e98da1.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matteo Giordano - Data Analysis Portfolio</title>
+    <!--favicon-img-->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <!--favicon-img-->
+    <!--main css file should not be removed -->
+    <link rel="stylesheet" href="css/index.css">
+    <!--main css file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+</head>
+
+<body>
+    <div id="navigation-content">
+        <div class="navigation-close">
+            <span class="close-first"></span>
+            <span class="close-second"></span>
+        </div>
+        <div class="navigation-links">
+            <a href="index.html" data-text="HOME" id="home-link">HOME</a>
+            <a href="about.html" data-text="ABOUT" id="about-link">ABOUT</a>
+            <a href="data_analysis.html" data-text="DATA ANALYSIS" id="data_analysis-link">DATA ANALYSIS</a>
+            <a href="data_viz.html" data-text="DATA VISUALIZATION" id="portfolio-link">DATA VISUALIZATION</a>
+        </div>
+    </div>
+    <!--Navigator-Fullscreen END-->
+    <!--Home Page-->
+    <!--Menubar-->
+    <div id="navigation-bar">
+        <div class="menubar">
+            <span class="first-span"></span>
+            <span class="second-span"></span>
+            <span class="third-span"></span>
+        </div>
+    </div>
+    <!-- Header (optional) -->
+    <div id="particles"></div>
+
+    <div id="portfolio">
+        <div class="portfolio-header">My <span class="color"> Data Visualization </span> Portfolio
+            <span class="header-caption"> Some of my projects using <span class="color"><b>Tableau</b></span> and
+                <span class="color"><b>Power BI</b></span></span>
+        </div>
+        <div id="portfolio-content">
+            <div class="portfolio portfolio-first">
+                <div class="portfolio-image">
+                    <img src="images/portfolio-EuropeanDashboard.png" alt="portfolio-first">
+                </div>
+                <div class="portfolio-text">
+                    <h2>European Countries Comparison</h2>
+                    <p>Dive into economic insights with this dynamic Power BI dashboard. Explore key indicators
+                        from the 'PIGS' nations, as well as France and Germany, for a nuanced 25-year comparison.
+                    </p>
+                    <div class="button"><a
+                            href="https://app.powerbi.com/view?r=eyJrIjoiM2RkZWNkMmMtZDgzYi00YjQ1LThkM2UtODYyOGE2ODU3OGI2IiwidCI6ImZmNGY5ZjE1LTY1YTktNDAwZS1hYzA0LTgzOTFmMjJkZDA1NiIsImMiOjl9"
+                            target="_blank"><button><span class="index"> View Project<i
+                                        class="gg-arrow-right"></i></span></button></a></div>
+                </div>
+            </div>
+            <div class="portfolio portfolio-second">
+                <div class="portfolio-image">
+                    <img src="images/portfolio-patentsTableauDashboard.png" alt="portfolio-second">
+                </div>
+                <div class="portfolio-text">
+                    <h2>U.S. Patents Assignments</h2>
+                    <p>This dashboard is done with <b>Tableau</b>, and it uses USPTO data to visualize patent
+                        assignment trends in the US, as well as an overview of evolving patterns for intellectual
+                        property in recent decades.</p>
+                    <div class="button"><a
+                            href="https://public.tableau.com/views/U_S_PatentsDashboardFinal/Dash0_1Home?:language=en-US&:display_count=n&:origin=viz_share_link"
+                            target="_blank"><button><span class="index"> View Project<i
+                                        class="gg-arrow-right"></i></span></button></a></div>
+                </div>
+            </div>
+            <!--
+            <div class="portfolio portfolio-third">
+                <div class="portfolio-image">
+                    <img src="images/portfolio-third.jpg" alt="portfolio-third">
+                </div>
+                <div class="portfolio-text">
+                    <h2>UI Designing</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ut optio repellat cupiditate
+                        expedita eius dignissimos
+                        .. Id cumque placeat minima ad laudantium suscipit voluptatem ducimus</p>
+                    <div class="button"><a href="#"><button><span class="index"> View Project<i
+                                        class="gg-arrow-right"></i></span></button></a></div>
+                </div>
+            </div>
+            <div class="portfolio portfolio-fourth">
+                <div class=" portfolio-image">
+                    <img src="images/portfolio-fourth.jpg" alt="portfolio-fourth">
+                </div>
+                <div class="portfolio-text">
+                    <h2>Wow Graphics</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ut optio repellat cupiditate
+                        expedita eius dignissimos. Id cumque placeat minima ad laudantium suscipit voluptatem
+                        ducimus</p>
+                    <div class="button"><a href="#"><button><span class="index"> View Project<i
+                                        class="gg-arrow-right"></i></span></button></a></div>
+                </div>
+            </div>-->
+        </div>
+
+    </div>
+    <!-- Footer (optional) -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/index.js"></script>
+    <!--particles script-->
+    <script>
+        particlesJS("particles", { "particles": { "number": { "value": 40, "density": { "enable": true, "value_area": 800 } }, "color": { "value": "#ffffff" }, "shape": { "type": "circle", "stroke": { "width": 0, "color": "#000000" }, "polygon": { "nb_sides": 5 }, "image": { "src": "img/github.svg", "width": 100, "height": 100 } }, "opacity": { "value": 0.5, "random": false, "anim": { "enable": false, "speed": 1, "opacity_min": 0.1, "sync": false } }, "size": { "value": 3, "random": true, "anim": { "enable": false, "speed": 40, "size_min": 0.1, "sync": false } }, "line_linked": { "enable": true, "distance": 150, "color": "#ffffff", "opacity": 0.4, "width": 1 }, "move": { "enable": true, "speed": 6, "direction": "none", "random": false, "straight": false, "out_mode": "out", "bounce": false, "attract": { "enable": false, "rotateX": 600, "rotateY": 1200 } } }, "interactivity": { "detect_on": "canvas", "events": { "onhover": { "enable": true, "mode": "repulse" }, "onclick": { "enable": true, "mode": "push" }, "resize": true }, "modes": { "grab": { "distance": 400, "line_linked": { "opacity": 1 } }, "bubble": { "distance": 400, "size": 40, "duration": 2, "opacity": 8, "speed": 3 }, "repulse": { "distance": 200, "duration": 0.4 }, "push": { "particles_nb": 4 }, "remove": { "particles_nb": 2 } } }, "retina_detect": true });
+    </script>
+</body>
+
+</html>

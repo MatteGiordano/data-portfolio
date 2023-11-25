@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://kit.fontawesome.com/0e73e98da1.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matteo Giordano - Data Analysis Portfolio</title>
+    <!--favicon-img-->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <!--favicon-img-->
+    <!--main css file should not be removed -->
+    <link rel="stylesheet" href="css/index.css">
+    <!--main css file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+</head>
+
+<body>
+    <div id="navigation-content">
+        <div class="navigation-close">
+            <span class="close-first"></span>
+            <span class="close-second"></span>
+        </div>
+        <div class="navigation-links">
+            <a href="index.html" data-text="HOME" id="home-link">HOME</a>
+            <a href="about.html" data-text="ABOUT" id="about-link">ABOUT</a>
+            <a href="data_analysis.html" data-text="DATA ANALYSIS" id="data_analysis-link">DATA ANALYSIS</a>
+            <a href="data_viz.html" data-text="DATA VISUALIZATION" id="portfolio-link">DATA VISUALIZATION</a>
+        </div>
+    </div>
+    <!--Navigator-Fullscreen END-->
+    <!--Home Page-->
+    <!--Menubar-->
+    <div id="navigation-bar">
+        <div class="menubar">
+            <span class="first-span"></span>
+            <span class="second-span"></span>
+            <span class="third-span"></span>
+        </div>
+    </div>
+    <!-- Header (optional) -->
+    <div id="particles"></div>
+
+    <div id="about">
+        <!--about content-->
+        <div id="about-content">
+            <div class="about-header">
+                About <span class="color">Me</span>
+            </div>
+            <div class="about-main">
+                <div class="about-first-paragraph wow">
+                    <!--about description-->
+                    <span class="about-first-line">
+                        I'm a
+                        <span class="color">Data Analyst</span></span>
+                    <br>
+                    <span class="about-second-line"> I bring a blend of academic insight and practical
+                        experience to the table. With a foundation in <span
+                            style="color:#53C3BD"><b><strong>quantitative research</strong></b></span> from my
+                        studies in
+                        economics and an <span style="color:#53C3BD"><b><strong>analytical
+                                    approach</strong></b></span> from my background in logic and philosophy, I enjoy
+                        seeing data from several lights, and taking the most out of them. <br><br> Work-wise, I
+                        developed my experience serving as a Research Assistant and as a Teaching Assistant at
+                        Erasmus University Rotterdam.
+                        As a research assistant, I gained familiarity with data cleaning and analysis,
+                        ensuring research projects maintained integrity and produced insightful findings.
+                        Furthermore, serving as a Teaching Assistant for bachelor-level courses
+                        sharpened my skills in conveying information efficiently, simplifying complex concepts and
+                        enhancing comprehension through data visualization techniques.</span>
+                    <div class="cv">
+                        <button id="pdfButton">
+                            <img src="images/button_my-cv.png" alt="CV Icon">
+                        </button>
+                    </div>
+
+                    <script>
+                        document.getElementById('pdfButton').addEventListener('click', openPDF);
+
+                        function openPDF() {
+                            var pdfUrl = 'pdfs/cv.pdf';
+                            var pdfWindow = window.open('', '_blank');
+                            pdfWindow.document.write('<iframe width="100%" height="100%" src="' + pdfUrl + '"></iframe>');
+                        }
+                    </script>
+                </div>
+                <!--about picture-->
+                <div class="about-img">
+                    <img src="images/about.jpg" alt="Your Image">
+                </div>
+            </div>
+
+        </div>
+        <!--services start-->
+        
+        <div id="services">
+            <div id="particles"></div>
+
+            <div class="services-heading wow">
+                My <span class="color">Skills</span>
+            </div>
+            <!--services header end-->
+            <!--services content-->
+            <div class="services-content">
+                <a href="data_analysis.html" target="_blank">
+                    <div class="service-one service wow">
+                        <div class="service-img">
+                            <img src="images/coding.png" alt="service-one">
+                        </div>
+                        <div class="service-description">
+                            <h2>Data Analysis</h2>
+                            <p>I am proficient in data cleaning and manipulation, both tailored for small datasets
+                                (Excel, Power Query), as well as larger ones (Python).</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="data_viz.html" target="_blank">
+                    <div class="service-two service wow">
+                        <div class="service-img">
+                            <img src="images/data-visualization.png" alt="service-two">
+                        </div>
+                        <div class="service-description">
+                            <h2>Data Visualization</h2>
+                            <p>I have experience in data visualization softwares such as Tableau and Power BI, and
+                                familiarity with Google Looker Studio.</p>
+                        </div>
+                    </div>
+                </a>
+                    <div class="service-three service wow">
+                        <div class="service-img">
+                            <img src="images/bulb.png" alt="service-three">
+                        </div>
+                        <div class="service-description">
+                            <h2>Analytical Thinking</h2>
+                            <p>As a philosopher by training, I am used to question data before using them, asking
+                                the
+                                right questions before looking for the right answers.</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <!--services content end-->
+        <!--services end-->
+
+    </div>
+    <!-- Footer (optional) -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/index.js"></script>
+    <!--particles script-->
+    <script>
+        particlesJS("particles", { "particles": { "number": { "value": 40, "density": { "enable": true, "value_area": 800 } }, "color": { "value": "#ffffff" }, "shape": { "type": "circle", "stroke": { "width": 0, "color": "#000000" }, "polygon": { "nb_sides": 5 }, "image": { "src": "img/github.svg", "width": 100, "height": 100 } }, "opacity": { "value": 0.5, "random": false, "anim": { "enable": false, "speed": 1, "opacity_min": 0.1, "sync": false } }, "size": { "value": 3, "random": true, "anim": { "enable": false, "speed": 40, "size_min": 0.1, "sync": false } }, "line_linked": { "enable": true, "distance": 150, "color": "#ffffff", "opacity": 0.4, "width": 1 }, "move": { "enable": true, "speed": 6, "direction": "none", "random": false, "straight": false, "out_mode": "out", "bounce": false, "attract": { "enable": false, "rotateX": 600, "rotateY": 1200 } } }, "interactivity": { "detect_on": "canvas", "events": { "onhover": { "enable": true, "mode": "repulse" }, "onclick": { "enable": true, "mode": "push" }, "resize": true }, "modes": { "grab": { "distance": 400, "line_linked": { "opacity": 1 } }, "bubble": { "distance": 400, "size": 40, "duration": 2, "opacity": 8, "speed": 3 }, "repulse": { "distance": 200, "duration": 0.4 }, "push": { "particles_nb": 4 }, "remove": { "particles_nb": 2 } } }, "retina_detect": true });
+    </script>
+</body>
+
+</html>
