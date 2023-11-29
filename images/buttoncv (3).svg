@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Livello_1_copia_5" data-name="Livello 1 copia 5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 578.5 120">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Poppins-ExtraBold, Poppins;
+        font-size: 41px;
+        font-weight: 700;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #52c5bd;
+      }
+
+      .cls-3, .cls-2 {
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-3" x="13" y="9.5" width="555" height="103" rx="10.83" ry="10.83"/>
+    <path class="cls-2" d="m557.17,13c4.04,0,7.33,3.29,7.33,7.33v81.33c0,4.04-3.29,7.33-7.33,7.33H23.83c-4.04,0-7.33-3.29-7.33-7.33V20.33c0-4.04,3.29-7.33,7.33-7.33h533.33m0-7H23.83c-7.92,0-14.33,6.42-14.33,14.33v81.33c0,7.92,6.42,14.33,14.33,14.33h533.33c7.92,0,14.33-6.42,14.33-14.33V20.33c0-7.92-6.42-14.33-14.33-14.33h0Z"/>
+  </g>
+  <text class="cls-1" transform="translate(72.65 76.17)"><tspan x="0" y="0">my curriculum vitae</tspan></text>
+</svg>

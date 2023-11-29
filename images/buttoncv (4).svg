@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Livello_1_copia_3" data-name="Livello 1 copia 3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 239.5 120">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #07274e;
+        font-family: Poppins-ExtraBold, Poppins;
+        font-size: 51px;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        fill: #52c5bd;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-2" x="4.5" y="5" width="229" height="110" rx="37.17" ry="37.17"/>
+  <text class="cls-1" transform="translate(80.62 78.87)"><tspan x="0" y="0">CV</tspan></text>
+</svg>

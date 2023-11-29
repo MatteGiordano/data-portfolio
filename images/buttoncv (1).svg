@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Livello_1" data-name="Livello 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 655.25 123">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #07274e;
+        font-family: Poppins-ExtraBold, Poppins;
+        font-size: 41px;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        fill: #52c5bd;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-2" x="6.25" y="7" width="642" height="110" rx="37.41" ry="37.41"/>
+  <text class="cls-1" transform="translate(109.4 77.17)"><tspan x="0" y="0">my curriculum vitae</tspan></text>
+</svg>

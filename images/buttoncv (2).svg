@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Livello_1_copia_4" data-name="Livello 1 copia 4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 572.5 120">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Poppins-ExtraBold, Poppins;
+        font-size: 41px;
+        font-weight: 700;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #52c5bd;
+      }
+
+      .cls-3, .cls-2 {
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g>
+    <path class="cls-3" d="m41.91,12h487.17c17.34,0,31.41,14.08,31.41,31.41v35.17c0,17.34-14.08,31.41-31.41,31.41H41.91c-17.34,0-31.41-14.08-31.41-31.41v-35.18c0-17.34,14.08-31.41,31.41-31.41Z"/>
+    <path class="cls-2" d="m529.09,18c14.01,0,25.41,11.4,25.41,25.41v35.18c0,14.01-11.4,25.41-25.41,25.41H41.91c-14.01,0-25.41-11.4-25.41-25.41v-35.18c0-14.01,11.4-25.41,25.41-25.41h487.18m0-12H41.91C21.25,6,4.5,22.75,4.5,43.41v35.18c0,20.66,16.75,37.41,37.41,37.41h487.18c20.66,0,37.41-16.75,37.41-37.41v-35.18c0-20.66-16.75-37.41-37.41-37.41h0Z"/>
+  </g>
+  <text class="cls-1" transform="translate(67.65 76.17)"><tspan x="0" y="0">my curriculum vitae</tspan></text>
+</svg>
